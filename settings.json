@@ -1,0 +1,38 @@
+    {
+        "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+        "suppressResultsExplorerNotice": true
+    },
+    "projectManager.groupList": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "editor.renderWhitespace": "boundary",
+    "indentRainbow.colors": [
+        "rgba(64,64,16,0.5)",
+        "rgba(32,64,32,0.5)",
+        "rgba(64,32,64,0.5)",
+        "rgba(16,48,48,0.5)"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.completeFunctionCalls": true,
+    "explorer.openEditors.visible": 0,
+    "zenMode.centerLayout": false,
+    "workbench.editor.showTabs": true,
+    "zenMode.fullScreen": false,
+    "workbench.activityBar.visible": true,
+    "search.usePCRE2": true,
+    "breadcrumbs.enabled": true,
+    "editor.suggestSelection": "first",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "typescript.preferences.importModuleSpecifier": "relative"
+}

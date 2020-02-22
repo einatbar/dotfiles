@@ -1,0 +1,14 @@
+[user]
+	name = {{ .name }}
+	email = {{ .email }}
+
+[push]
+{{- if eq .kind "work" }}
+  default = current
+{{- else -}}
+  default = upstream
+{{- end }}
+
+[core]
+	editor = code --wait
+  excludesfile = ~/.gitignore

@@ -1,0 +1,6 @@
+{{- $email := promptString "email" -}}
+{{- $kind := promptString "machine kind (personal/work)" -}}
+[data]
+  email = "{{ $email }}"
+  name = "Ori Riner"
+  kind = "{{ $kind }}"

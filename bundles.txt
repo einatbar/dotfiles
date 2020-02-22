@@ -1,0 +1,15 @@
+# this block is in alphabetic order
+caarlos0/ports kind:path
+caarlos0/zsh-mkc
+lukechilds/zsh-nvm
+mafredri/zsh-async
+rupa/z
+wfxr/forgit
+zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions
+
+# these should be at last!
+romkatv/powerlevel10k
+# zsh-users/zsh-syntax-highlighting
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-history-substring-search

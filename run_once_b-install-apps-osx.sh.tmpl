@@ -1,0 +1,8 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/sh
+
+brew bundle --file={{ .chezmoi.sourceDir }}/Brewfile
+
+antibody bundle < "{{ .chezmoi.sourceDir }}/bundles.txt" > ~/.zsh_plugins.sh
+antibody update
+{{ end -}}
