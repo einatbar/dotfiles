@@ -14,6 +14,7 @@ sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/OriR/dotfiles/master/se
   * [`fx`](https://github.com/antonmedv/fx) - a JSON viewer in the terminal
   * [`hub`](https://github.com/github/hub) - a command line for GitHub
   * [`jq`](https://github.com/stedolan/jq) - a command line JSON processor
+  * [`navi`](https://github.com/denisidoro/navi) - a command line command searcher
   * [`ripgrep`](https://github.com/BurntSushi/ripgrep) - a better `grep` utility
   * [`thefuck`](https://github.com/nvbn/thefuck) - for those autocorrectable moments you fuck-up in the command line
   * [`yarn`](https://github.com/yarnpkg/yarn/) - an alternative package manager for JS
