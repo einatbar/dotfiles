@@ -9,6 +9,7 @@ EOF
 
 # Add the following applications to the dock:
 #  * ITerm
+#  * Slack
 #  * Visual Studio Code
 #  * Google Chrome
 #  * Google Chrome Canary
@@ -16,7 +17,10 @@ EOF
 #  * Firefox Nightly
 #  * Safari
 #  * Safari Technology Preview
+#  * Microsoft Edge
+#  * Microsoft Edge Dev
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/ITerm.app/g" -e "s/APP_NAME/ITerm/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Slack.app/g" -e "s/APP_NAME/Slack/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Visual\ Studio\ Code.app/g" -e "s/APP_NAME/Visual Studio Code/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Google\ Chrome.app/g" -e "s/APP_NAME/Google Chrome/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Google\ Chrome\ Canary.app/g" -e "s/APP_NAME/Google Chrome Canary/" /tmp/dock-config-template)"
@@ -24,6 +28,8 @@ defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Firefox\ Nightly.app/g" -e "s/APP_NAME/Firefox Nightly/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Safari.app/g" -e "s/APP_NAME/Safari/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Safari\ Technology\ Preview.app/g" -e "s/APP_NAME/Safari Technology Preview/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Microsoft\ Edge.app/g" -e "s/APP_NAME/Microsoft Edge/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Microsoft\ Edge\ Dev.app/g" -e "s/APP_NAME/Microsoft Edge Dev/" /tmp/dock-config-template)"
 
 # Remove the temporary template file.
 rm -rf /tmp/dock-config-template
