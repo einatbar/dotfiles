@@ -1,3 +1,4 @@
+tap "denisidoro/tools"
 tap "getantibody/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -8,6 +9,7 @@ tap "homebrew/services"
 
 brew "antibody"
 brew "bat"
+brew "denisidoro/tools/navi"
 brew "fzf"
 brew "fx"
 brew "hub"
