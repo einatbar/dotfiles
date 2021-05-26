@@ -19,7 +19,6 @@ sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/OriR/dotfiles/master/se
   * [`thefuck`](https://github.com/nvbn/thefuck) - for those autocorrectable moments you fuck-up in the command line
   * [`yarn`](https://github.com/yarnpkg/yarn/) - an alternative package manager for JS
   * [`up`](https://github.com/akavel/up) - an interactive shell pipe explorer
-  * [`alfred`](https://www.alfredapp.com/) - an alternative to `Spotlight` on steroids
   * [`docker`](https://www.docker.com/) - containerization application for better isolation & machine decontamination
   * [`flux`](https://justgetflux.com/) - macOS application for blue light filter
   * [`font-hack-nerd-font`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) - Nicer terminal font
@@ -29,10 +28,11 @@ sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/OriR/dotfiles/master/se
   * [`google-chrome-canary`](https://www.google.com/chrome/canary/) - Chrome Canary browser (nightly updates)
   * [`microsoft-edge`](https://www.microsoft.com/en-us/edge) - Edge browser
   * [`microsoft-edge-dev`](https://www.microsoftedgeinsider.com/en-us/download) - Edge Dev channel brwoser (weekly updates)
+  * [`raycast`](https://raycast.app/) - an alternative to `Spotlight` on steroids (A rethink to Alfred)
+  * [`rectangle`](https://www.rectangleapp.com/) - macOS window resizer (A successor fork of spectacle)
   * [`safari-technology-preview`](https://developer.apple.com/safari/technology-preview/) - Safari Technology Preview browser (weekly updates), `Safari` is assumed on macOS
   * [`iterm2`](https://iterm2.com/) - macOS terminal replacement
   * [`slack`](https://slack.com/intl/en-il/) - slack macOS desktop client
-  * [`spectacle`](https://www.spectacleapp.com/) - macOS window resizer
   * [`visual-studio-code`](https://code.visualstudio.com/) - lightweight yet powerful code editor
 * Antibody
   * [`caarlos0/ports`](https://github.com/caarlos0/ports) - utility for monitoring processes hogging ports

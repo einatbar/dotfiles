@@ -8,7 +8,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 hash brew 2>/dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-hash chezmoi 2>/dev/null || brew install twpayne/taps/chezmoi
+hash chezmoi 2>/dev/null || brew install chezmoi
 
 chezmoi init --apply https://github.com/OriR/dotfiles.git
 
