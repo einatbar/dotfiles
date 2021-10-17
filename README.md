@@ -2,7 +2,7 @@
 
 ## Installation
 ```sh
-sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/OriR/dotfiles/master/setup.osx.sh)"
+sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/einatbar/dotfiles/master/setup.osx.sh)"
 ```
 
 ## What's in the box?
@@ -47,4 +47,4 @@ sh -i -c "$(curl -fsSL https://raw.githubusercontent.com/OriR/dotfiles/master/se
   * [`zdharma/fast-syntax-highlighting`](https://github.com/zdharma/fast-syntax-highlighting) - zsh syntax highlighting, but fast
   * [`zsh-users/zsh-history-substring-search`](https://github.com/zsh-users/zsh-history-substring-search) - zsh history search and quick navigation
 
-Additionaly, a bunch of macOS configurations can be found [here](https://github.com/OriR/dotfiles/blob/master/run_once_a-configure-osx.sh.tmpl) that are based on https://mths.be/macos tailored for my presonal preference.
+Additionaly, a bunch of macOS configurations can be found [here](https://github.com/einatbar/dotfiles/blob/master/run_once_a-configure-osx.sh.tmpl) that are based on https://mths.be/macos tailored for my presonal preference.
