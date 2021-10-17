@@ -10,7 +10,7 @@ hash brew 2>/dev/null || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubuserco
 
 hash chezmoi 2>/dev/null || brew install chezmoi
 
-chezmoi init --apply https://github.com/OriR/dotfiles.git
+chezmoi init --apply https://github.com/einatbar/dotfiles.git
 
 zsh -i -c "source ~/.zshrc && source $(chezmoi source-path)/post-setup.osx.sh"
 
