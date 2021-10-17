@@ -10,26 +10,26 @@ EOF
 # Add the following applications to the dock:
 #  * ITerm
 #  * Slack
+#  * WhatsApp
+#  * Launchpad
+#  * WebStorm
+#  * System Preferences
 #  * Visual Studio Code
 #  * Google Chrome
-#  * Google Chrome Canary
-#  * Firefox
-#  * Firefox Nightly
-#  * Safari
-#  * Safari Technology Preview
-#  * Microsoft Edge
-#  * Microsoft Edge Dev
+#  * Evernote
+#  * Figma
+#  * Sourcetree
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/ITerm.app/g" -e "s/APP_NAME/ITerm/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Slack.app/g" -e "s/APP_NAME/Slack/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/WhatsApp.app/g" -e "s/APP_NAME/WhatsApp/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Launchpad.app/g" -e "s/APP_NAME/Launchpad/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/WebStorm.app/g" -e "s/APP_NAME/WebStorm/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/System\ Preferences.app/g" -e "s/APP_NAME/System Preferences/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Visual\ Studio\ Code.app/g" -e "s/APP_NAME/Visual Studio Code/" /tmp/dock-config-template)"
 defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Google\ Chrome.app/g" -e "s/APP_NAME/Google Chrome/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Google\ Chrome\ Canary.app/g" -e "s/APP_NAME/Google Chrome Canary/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Firefox.app/g" -e "s/APP_NAME/Firefox/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Firefox\ Nightly.app/g" -e "s/APP_NAME/Firefox Nightly/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Safari.app/g" -e "s/APP_NAME/Safari/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Safari\ Technology\ Preview.app/g" -e "s/APP_NAME/Safari Technology Preview/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Microsoft\ Edge.app/g" -e "s/APP_NAME/Microsoft Edge/" /tmp/dock-config-template)"
-defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Microsoft\ Edge\ Dev.app/g" -e "s/APP_NAME/Microsoft Edge Dev/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Evernote.app/g" -e "s/APP_NAME/Evernote/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Figma.app/g" -e "s/APP_NAME/Figma/" /tmp/dock-config-template)"
+defaults write com.apple.dock persistent-apps -array-add "$(sed -e "s/APP_PATH/\/Applications\/Sourcetree.app/g" -e "s/APP_NAME/Sourcetree/" /tmp/dock-config-template)"
 
 # Remove the temporary template file.
 rm -rf /tmp/dock-config-template
